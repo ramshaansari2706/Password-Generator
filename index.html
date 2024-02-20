@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="description">
+            <p>&gt;&gt; Confused in deciding a new password?</p>
+            <p>&gt;&gt; Give this tool a try !!!</p>
+            <p>&gt;&gt; Copy button only works on entering a valid password. Range: 6 to 20 characters</p>
+            <p>&gt;&gt; Project developed by :- Ramsha Ansari</p>
+        </div>
+        <input type="number" id="password_length_input" placeholder="Enter the password length">
+        <button id="generate_button">Generate Password</button>
+        <button id="copy_button" disabled>Copy</button>
+        <div class="generated-password">
+            <label for="generated_password">Generated Password:</label>
+            <input type="text" id="generated_password" readonly>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

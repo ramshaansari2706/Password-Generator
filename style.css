@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 16px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    align-self: center;
+    background-color: #222;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0ef;
+    transition: transform 0.5s ease;
+}
+
+.container:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 0 100px #0ef;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button#generate_button {
+    background-color: #1ec53a; 
+}
+
+button#copy_button {
+    background-color: red;
+}
+
+button:disabled {
+    background-color: #777;
+}
+
+.generated-password {
+    text-align: center;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+}
